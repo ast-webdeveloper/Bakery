@@ -1,5 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
   background: #ffe2b0;
+}
+
+.container {
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 1084px;
 }
 
 a {
@@ -12,6 +23,10 @@ a {
 header {
   margin-bottom: 20px;
   text-align: center;
+}
+
+nav {
+  margin-bottom: 20px;
 }
 
 ul {
@@ -32,4 +47,36 @@ li:not(:last-child) {
 .nav-link {
   font-size: 18px;
   text-transform: uppercase;
+}
+
+.section-about {
+  min-height: 640px;
+  background: url('../img/bg_fon.jpg') center/cover no-repeat;
+}
+
+.container-about {
+  padding: 349px 0 0 550px;
+  height: 100%;
+}
+
+.section-about__block {
+  padding: 15px;
+  max-width: 420px;
+  min-height: 190px;
+  background: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(234, 156, 65, 0.8) 100%);
+}
+
+.section-about__text {
+  padding: 17px 28px;
+  border: 1px solid #000;
+}
+
+.section-about__text_title {
+  margin: 0 0 9px 0;
+  font-size: 36px;
+}
+
+.section-about__text_descr {
+  margin: 0;
+  font-size: 12px;
 }
