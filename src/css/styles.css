@@ -8,9 +8,9 @@ body {
 }
 
 .container {
-  padding: 30px;
+  padding: 20px;
   margin: 0 auto;
-  max-width: 1084px;
+  max-width: 1440px;
 }
 
 a {
@@ -36,11 +36,11 @@ ul {
   text-align: center;
 }
 
-li {
+.header__item {
   display: inline-block;
 }
 
-li:not(:last-child) {
+.header__item:not(:last-child) {
   margin-right: 100px;
 }
 
@@ -55,7 +55,7 @@ li:not(:last-child) {
 }
 
 .container-about {
-  padding: 349px 0 0 550px;
+  padding: 23% 0 0 49%;
   height: 100%;
 }
 
@@ -79,4 +79,35 @@ li:not(:last-child) {
 .section-about__text_descr {
   margin: 0;
   font-size: 12px;
+}
+
+.container-brands {
+  text-align: center;
+}
+
+.section-brands__list {
+  margin-bottom: 20px;
+}
+
+.section-brands__item {
+  display: inline-block;
+}
+
+.section-brands__item:not(:last-child) {
+  margin-right: 76px;
+}
+
+.section-brands__title {
+  margin: 0 0 20px;
+  font-size: 96px;
+}
+
+.section-brands__descr {
+  margin: 0 auto;
+  max-width: 1000px;
+  font-size: 18px;
+}
+
+.section-brands__word {
+  color: #f15b40;
 }
