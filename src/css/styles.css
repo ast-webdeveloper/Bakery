@@ -144,3 +144,11 @@ ul {
   height: 1px;
   background: #999;
 }
+
+.footer__item {
+  display: inline-block;
+}
+
+.footer__item:not(:last-child) {
+  margin-right: 100px;
+}
