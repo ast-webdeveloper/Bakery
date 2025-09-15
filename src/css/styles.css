@@ -83,6 +83,10 @@ ul {
   font-size: 12px;
 }
 
+.section-brands {
+  margin-bottom: 20px;
+}
+
 .container-brands {
   text-align: center;
 }
@@ -117,4 +121,26 @@ ul {
 
 .section-brands__word {
   color: #f15b40;
+}
+
+.section-map {
+  margin-bottom: 20px;
+}
+
+.section-map__title {
+  margin: 0 0 20px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.map {
+  outline: none;
+  text-align: center;
+}
+
+.line {
+  margin: 0 auto 20px;
+  width: 1024px;
+  height: 1px;
+  background: #999;
 }
