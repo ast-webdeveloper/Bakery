@@ -4,11 +4,12 @@
 
 body {
   margin: 0;
+  padding-top: 20px;
   background: #ffe2b0;
 }
 
 .container {
-  padding: 20px;
+  /* padding: 20px 0 0; */
   margin: 0 auto;
   max-width: 1440px;
 }
@@ -50,6 +51,7 @@ ul {
 }
 
 .section-about {
+  margin-bottom: 20px;
   min-height: 640px;
   background: url('../img/bg_fon.jpg') center/cover no-repeat;
 }
