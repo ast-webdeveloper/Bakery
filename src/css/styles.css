@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'Roboto';
+  src: ('Roboto');
+  src: url('../fonts/Roboto-Regular.woff') format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: ('Roboto');
+  src: url('../fonts/Roboto-Bold.woff') format('woff');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Philosopher';
+  src: ('Philosopher');
+  src: url('../fonts/Philosopher.woff') format('woff');
+  font-weight: 400;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,6 +26,8 @@
 body {
   margin: 0;
   padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   background: #ffe2b0;
 }
 
@@ -47,6 +70,7 @@ ul {
 
 .nav-link {
   font-size: 18px;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -75,6 +99,8 @@ ul {
 
 .section-about__text_title {
   margin: 0 0 9px 0;
+  font-family: 'Philosopher';
+  font-weight: 400;
   font-size: 36px;
 }
 
@@ -110,6 +136,8 @@ ul {
 
 .section-brands__title {
   margin: 0 0 20px;
+  font-family: 'Philosopher';
+  font-weight: 400;
   font-size: 96px;
 }
 
@@ -129,6 +157,8 @@ ul {
 
 .section-map__title {
   margin: 0 0 20px;
+  font-family: 'Philosopher';
+  font-weight: 400;
   font-size: 36px;
   text-align: center;
 }
